@@ -11,6 +11,10 @@
 		1816F499205BA0150031F629 /* LoggingFrameWorkTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1816F498205BA0150031F629 /* LoggingFrameWorkTests.swift */; };
 		1816F49B205BA0150031F629 /* LoggingFrameWork.h in Headers */ = {isa = PBXBuildFile; fileRef = 1816F48D205BA0150031F629 /* LoggingFrameWork.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		1816F4A5205BA0730031F629 /* Logging.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1816F4A4205BA0730031F629 /* Logging.swift */; };
+		1816F4AE205CCE420031F629 /* AppStoryboard.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1816F4AA205CCE420031F629 /* AppStoryboard.swift */; };
+		1816F4AF205CCE420031F629 /* AppLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1816F4AB205CCE420031F629 /* AppLog.swift */; };
+		1816F4B0205CCE420031F629 /* AlertUtil.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1816F4AC205CCE420031F629 /* AlertUtil.swift */; };
+		1816F4B1205CCE420031F629 /* Validations.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1816F4AD205CCE420031F629 /* Validations.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -31,6 +35,10 @@
 		1816F498205BA0150031F629 /* LoggingFrameWorkTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoggingFrameWorkTests.swift; sourceTree = "<group>"; };
 		1816F49A205BA0150031F629 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		1816F4A4205BA0730031F629 /* Logging.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Logging.swift; sourceTree = "<group>"; };
+		1816F4AA205CCE420031F629 /* AppStoryboard.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppStoryboard.swift; sourceTree = "<group>"; };
+		1816F4AB205CCE420031F629 /* AppLog.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppLog.swift; sourceTree = "<group>"; };
+		1816F4AC205CCE420031F629 /* AlertUtil.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AlertUtil.swift; sourceTree = "<group>"; };
+		1816F4AD205CCE420031F629 /* Validations.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Validations.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -76,6 +84,10 @@
 				1816F48D205BA0150031F629 /* LoggingFrameWork.h */,
 				1816F48E205BA0150031F629 /* Info.plist */,
 				1816F4A4205BA0730031F629 /* Logging.swift */,
+				1816F4AC205CCE420031F629 /* AlertUtil.swift */,
+				1816F4AB205CCE420031F629 /* AppLog.swift */,
+				1816F4AA205CCE420031F629 /* AppStoryboard.swift */,
+				1816F4AD205CCE420031F629 /* Validations.swift */,
 			);
 			path = LoggingFrameWork;
 			sourceTree = "<group>";
@@ -200,7 +212,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1816F4B0205CCE420031F629 /* AlertUtil.swift in Sources */,
+				1816F4AE205CCE420031F629 /* AppStoryboard.swift in Sources */,
+				1816F4AF205CCE420031F629 /* AppLog.swift in Sources */,
 				1816F4A5205BA0730031F629 /* Logging.swift in Sources */,
+				1816F4B1205CCE420031F629 /* Validations.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
